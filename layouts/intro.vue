@@ -1,24 +1,38 @@
 <template>
   <default class="intro" :logoHeader="logoHeader">
-    <div class="flex items-center">
-      <figure class="w-1/2 px-12">
-        <img :src="introImage" height="312" width="312" class="rounded-full p-2 bg-gradient-to-r from-fuchsia-700 to-purple-800 dark:(from-white to-purple-50)">
-      </figure>
-      <div class="w-1/2">
-        <slot />
+      <div class="flex items-center">
+        <figure class="w-1/2 px-12">
+          <img
+            :src="introImage"
+            height="312"
+            width="312"
+            class="
+              rounded-full
+              p-2
+              bg-gradient-to-r
+              from-fuchsia-700
+              to-purple-800
+              dark:(from-white
+              to-purple-50)
+            "
+          />
+        </figure>
+        <div class="w-1/2">
+          <slot />
+        </div>
       </div>
-    </div>
   </default>
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineComponent } from 'vue'
-import Default from '../layouts/default.vue'
+import { defineProps, defineComponent } from "vue";
+import Default from "../layouts/default.vue";
+import Snow from "../layouts/snow.vue";
 
-const components = defineComponent({ Default })
+const components = defineComponent({ Default, Snow });
 const props = defineProps({
   introImage: {
     type: String,
   },
-})
+});
 </script>

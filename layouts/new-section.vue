@@ -2,7 +2,7 @@
   <default class="new-section" :logoHeader="logoHeader">
     <div class="flex items-center">
       <figure class="w-1/2">
-        <img :src="sectionImage" alt="new section" width="400" height="400" class="ml-auto" />
+        <img :src="sectionImage" alt="new section" class="ml-auto rounded-md shadow-lg h-full w-full" />
       </figure>
       <div class="w-1/2 text-right pr-12">
         <slot />

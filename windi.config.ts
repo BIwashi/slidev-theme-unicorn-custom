@@ -13,7 +13,8 @@ export default mergeWindicssConfig(
     },
     shortcuts: {
       // custom the default background
-      'bg-main': 'bg-gradient-to-r from-white to-purple-50 text-gray-900 dark:(from-fuchsia-700 to-purple-800 text-white)',
+      // 'bg-main': 'bg-gradient-to-r from-white to-purple-50 text-gray-900 dark:(from-fuchsia-700 to-purple-800 text-white)',
+      'bg-main': 'bg-gradient-to-r from-white to-green-50 text-gray-900 dark:(from-purple-300 to-green-900 text-white)',
     },
     theme: {
       extend: {

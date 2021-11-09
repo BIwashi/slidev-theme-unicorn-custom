@@ -14,9 +14,9 @@
   "homepage": "https://unicorn-theme.dawntraoz.com/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dawntraoz/slidev-theme-unicorn.git"
+    "url": "git+https://github.com/BIwashi/slidev-theme-unicorn-custom.git"
   },
-  "bugs": "https://github.com/Dawntraoz/slidev-theme-unicorn/issues",
+  "bugs": "https://github.com/BIwashi/slidev-theme-unicorn-custom/issues",
   "slidev": {
     "colorSchema": "both",
     "highlighter": "all"
